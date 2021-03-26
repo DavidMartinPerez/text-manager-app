@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Text Manager App
+## Description
+Technical test React App for Fontend Developer position
+## Stack
+* React 17.0.2
+* React hook (Control State)
+* Jest (Test)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+pd: Created with create-react-app for save time
+## Requirements
+Especificación Funcional
+La aplicación debe tener una interfaz de usuario que debe contar al menos con los siguientes elementos:
+* Un contenedor donde se irán añadiendo o borrando cadenas de texto.
+Los distintos items deben ser seleccionables.
+* Un botón para agregar cadenas de texto.
+* Un botón para eliminar cadenas de texto.
+* Un prompt para que el usuario pueda escribir cadenas de texto.
+* Al clickar en el botón “+” (añadir) debe aparecer un prompt (puede
+usarse el prompt nativo) para que el usuario pueda introducir una nueva
+cadena de texto.
+* Una vez cerrado el prompt, la cadena introducida (si la hubiese) debe ser
+añadida alcontenedor de items seleccionables (véase imagen como
+ejemplo)
+* Al clickar en el botón “-” (borrar) se deben eliminar de la lista todos los
+items seleccionados.
+* Al hacer doble click en un item, se eliminará dicho item.
+* La interfaz tendrá un botón adicional “Deshacer”, y al ser clickado, se
+deshará la última acción (ya sea añadido o borrado).
