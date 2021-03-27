@@ -4,7 +4,8 @@ Technical test React App for Fontend Developer position
 ## Stack
 * React 17.0.2
 * React hook (Control State)
-* Jest (Test)
+* React function component
+* Testing-library & testing-library/user-event (TEST)
 
 pd: Created with create-react-app for save time
 ## Requirements
