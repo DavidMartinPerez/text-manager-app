@@ -7,7 +7,6 @@ Technical test React App for Fontend Developer position
 * React function component
 * React Testing Library (TEST)
 
-pd: Created with create-react-app for save time
 ## Requirements
 Especificación Funcional
 La aplicación debe tener una interfaz de usuario que debe contar al menos con los siguientes elementos:
